@@ -1,4 +1,4 @@
-# Virtual Commerce Office
+# Seller Protocol
 
 An autonomous virtual office for building and running an Amazon FBA +
 direct-to-consumer e-commerce business — from product idea to sourced,
