@@ -64,7 +64,7 @@ the business is handled.
 | 11 | **UI Designer** | Outstanding UI bar across Amazon + DTC | Design gate: no customer-facing asset ships without sign-off |
 | 12 | **Trade Lawyer** | Import/product compliance, IP, contracts | **Blocks** on legal/compliance grounds |
 | 13 | **Finance Counsel** | Landed-cost models, pricing, tax, P&L | **Blocks** on tax/financial-compliance grounds |
-| 14 | **Knowledge Wizard** | Whole-internet research; simplest solution; spawns subagents to finish the job; **Phase 0 War Room gate — reads every related doc in full, briefs every seat before anyone speaks** | Advisory; shapes every debate |
+| 14 | **Knowledge Wizard** | Whole-internet researcher, Phase 0 gate & Skill Hunter | Whole-internet research; simplest solution; spawns subagents to finish the job; **Phase 0 War Room gate — reads every related doc in full, briefs every seat before anyone speaks**; hunts/vets/installs missing skills from across the internet per the `skill-hunt` playbook | Advisory; shapes every debate |
 | 15 | **Prompt Writer** | Prompt refiner & closed-loop finisher | Forges raw prompts into precise, persona-driven perfected prompts; every agent works from the perfected version — including the Knowledge Wizard; stays in the loop until done — bounded retries (max 3, each retry changes something), then escalates to Mercer | Front door of intake and Phase 0; relentless on completion |
 
 ---

@@ -15,7 +15,10 @@ Welcome to the office. This folder is the office's memory and rulebook.
   - *Legal & Finance:* trade-lawyer, finance-counsel
   - *Intelligence:* prompt-writer, knowledge-wizard
 - **playbooks/** — repeatable procedures, run by spawning one subagent
-  per step: `intake`, `war-room`, `launch-product`, `fix-listing`.
+  per step: `intake`, `war-room`, `launch-product`, `fix-listing`,
+  `skill-hunt`.
+- **skills/** — capabilities the Knowledge Wizard hunted across the
+  internet, vetted, and installed (`office/skills/<slug>/SKILL.md`).
 - **scripts/** — automation helpers.
 - **log/decisions.md** — every significant decision, dated.
 - **log/runs/** — journal entries for each task run.

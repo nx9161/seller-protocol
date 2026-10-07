@@ -46,3 +46,13 @@ shipment is cheaper than a seized one.
 Employees may research, compare quotes, draft listings, build pages, and
 open PRs freely. Spending, signing, booking freight, and external
 communication as the business always require approval.
+
+## 8. Skills (Knowledge Wizard)
+- New skills come only through the `skill-hunt` playbook: define the
+  need, hunt, vet, install, wire tools, test, record.
+- Every skill records provenance (source URL, version/commit, license,
+  install date) in its `SKILL.md`; the original license is kept verbatim.
+- No skill may exfiltrate office data or phone home without owner
+  approval. Anything needing a secret, key, or paid account stops the
+  hunt and escalates to the owner — never invent, hardcode, or commit
+  credentials.
