@@ -1,0 +1,35 @@
+name: Office task
+description: Give the office a piece of work
+title: "[task] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want?
+      description: The raw request — the Prompt Writer will perfect it before anyone acts on it.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Product, quantities, budget, deadlines, links — anything the office should know.
+  - type: dropdown
+    id: warroom
+    attributes:
+      label: Needs a War Room?
+      description: Product launches, inventory buys, and freight bookings must go through the War Room.
+      options:
+        - Not sure — let Mercer decide
+        - "Yes"
+        - "No — small, well-defined task"
+    validations:
+      required: true
+  - type: checkboxes
+    id: money
+    attributes:
+      label: Money check
+      description: The money rule — no spend without the owner's explicit approval.
+      options:
+        - label: This task involves spending money (inventory, freight, ads, contracts, subscriptions)
