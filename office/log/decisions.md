@@ -20,3 +20,16 @@
   lands. Updated `office/staff/knowledge-wizard.md` (7-step briefing
   procedure) and `office/AGENTS.md` (protocol + roster table).
 - **Owner:** Naman
+
+## 2026-10-07 — Prompt Writer joins as 15th seat; Phase 0 becomes two-step
+- **Context:** Owner ordered both offices to have a Prompt Writer and a
+  Knowledge Wizard as subagents. Commerce office had the Wizard; added
+  the Writer.
+- **Decision:** New seat `prompt-writer` (Intelligence). Clean split:
+  Prompt Writer perfects the *ask*, Knowledge Wizard gathers the
+  *knowledge*. Phase 0 is now two-step: Writer forges the perfected
+  prompt → Wizard parses every word, searches, reads all related docs
+  in full, injects the per-seat dossier → no seat speaks before the
+  dossier lands. Intake playbook updated: Writer perfects before the
+  Wizard briefs.
+- **Owner:** Naman

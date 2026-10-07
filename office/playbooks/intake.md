@@ -11,9 +11,13 @@ Turn a raw owner request into dispatched, tracked work.
 2. **Clarify.** If the request is missing anything that changes the
    work (product, quantity, budget, deadline, market), ask the owner —
    one round, specific questions.
-3. **Brief (Knowledge Wizard).** For anything non-trivial, the Wizard
-   researches current facts and writes a perfected brief: objective,
-   constraints, acceptance criteria, done-definition.
+3. **Perfect (Prompt Writer).** For anything non-trivial, the Prompt
+   Writer forges the raw request into the perfected prompt — objective,
+   constraints, acceptance criteria, done-definition. No agent works
+   from the raw version.
+4. **Brief (Knowledge Wizard).** The Wizard takes the perfected prompt,
+   researches every word, reads all related documentation in full, and
+   writes the per-seat dossier.
 4. **Dispatch.** Mercer assigns the briefed work to the right
    specialists as subagents, with dependencies ordered (e.g., landed
    cost before supplier outreach; QC plan before bulk order).

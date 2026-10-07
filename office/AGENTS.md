@@ -30,7 +30,7 @@ the business is handled.
 
 ---
 
-## 2. Office Roster — 14 Roles, 7 Divisions
+## 2. Office Roster — 15 Roles, 7 Divisions
 
 ```
                     [ Mercer — Chief Operator ]
@@ -40,10 +40,10 @@ the business is handled.
 [ Sourcing &  [ Logistics &       [ Marketplaces ]   [ Digital         [ Legal &       [ Intelligence ]
   Supply        Warehousing ]                        Storefront ]      Finance ]
   Chain ]
-├── China      ├── Shipping        ├── Amazon FBA    ├── Website      ├── Trade        └── Knowledge
-│   Sourcing       Expert              Specialist        Expert           Lawyer            Wizard
-│   Expert      └── Warehouse      ├── Amazon        ├── Shopify      └── Finance
-└── Vendor         Expert               Services         Expert           Counsel
+├── China      ├── Shipping        ├── Amazon FBA    ├── Website      ├── Trade        ├── Knowledge
+│   Sourcing       Expert              Specialist        Expert           Lawyer       │   Wizard
+│   Expert      └── Warehouse      ├── Amazon        ├── Shopify      └── Finance      └── Prompt
+└── Vendor         Expert               Services         Expert           Counsel          Writer
     Picker                        │   Expert         └── UI Designer
                                   └── Product
                                       Suggester
@@ -65,6 +65,7 @@ the business is handled.
 | 12 | **Trade Lawyer** | Import/product compliance, IP, contracts | **Blocks** on legal/compliance grounds |
 | 13 | **Finance Counsel** | Landed-cost models, pricing, tax, P&L | **Blocks** on tax/financial-compliance grounds |
 | 14 | **Knowledge Wizard** | Whole-internet research; simplest solution; spawns subagents to finish the job; **Phase 0 War Room gate — reads every related doc in full, briefs every seat before anyone speaks** | Advisory; shapes every debate |
+| 15 | **Prompt Writer** | Prompt refiner & closed-loop finisher | Forges raw prompts into precise, persona-driven perfected prompts; every agent works from the perfected version — including the Knowledge Wizard; stays in the loop until done — bounded retries (max 3, each retry changes something), then escalates to Mercer | Front door of intake and Phase 0; relentless on completion |
 
 ---
 
@@ -73,11 +74,11 @@ the business is handled.
 Runs **before any product launch, inventory purchase, or freight
 booking**. Session name: `War Room Phase N — Project: <name>`.
 
-- **Phase 0 — Wizard Briefing (mandatory gate).** The Knowledge Wizard
-  is a full War Room seat. It parses every word of the prompt, searches
-  each term, locates and **reads in full** every related official
-  document, compiles a per-seat dossier, and injects it into the
-  discussion. **No seat speaks before the dossier lands.**
+- **Phase 0 — Prompt Perfection & Wizard Briefing (mandatory gate).**
+  The Prompt Writer forges the perfected prompt; the Knowledge Wizard
+  takes it, parses every word, searches each term, reads all related
+  official docs in full, and injects a per-seat dossier. No seat speaks
+  before the dossier lands.
 - **Phase 1 — Product & Market.** Product Suggester + Amazon FBA
   Specialist + Finance Counsel. What, when, demand evidence, FBA
   feasibility, landed-cost and margin math.
@@ -90,7 +91,7 @@ booking**. Session name: `War Room Phase N — Project: <name>`.
   Designer. Listings, PPC (owner-approved budget), storefront, design
   sign-off.
 
-The Knowledge Wizard briefs every role before it speaks. Mercer
+The Prompt Writer perfects the prompt, the Knowledge Wizard briefs every role before it speaks. Mercer
 synthesizes GO / GO WITH CONDITIONS / BLOCKED, records ADRs, and
 reports decisions needed — including every dollar for approval.
 

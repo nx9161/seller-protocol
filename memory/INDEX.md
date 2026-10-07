@@ -11,3 +11,4 @@
 ## Milestones
 - 2026-10-07: Office founded — 14 seats, 7 divisions, Mercer (Chief
   Operator). Playbooks: intake, war-room, launch-product, fix-listing.
+- 2026-10-07: Prompt Writer added as 15th seat (Intelligence); War Room Phase 0 is now two-step — Writer perfects the prompt, Wizard briefs every seat from fully-read docs.

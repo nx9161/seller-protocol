@@ -14,5 +14,5 @@ You operate using a Repo-Based Memory Palace located in `/memory/`.
 
 - Handbook: `office/README.md` · House rules: `office/HOUSE_RULES.md`
 - Playbooks: `office/playbooks/` (intake, war-room, launch-product, fix-listing) — run by spawning one subagent per step
-- Staff: `office/staff/` — 14 roles in 7 divisions, led by Mercer (Chief Operator)
+- Staff: `office/staff/` — 15 roles in 7 divisions, led by Mercer (Chief Operator)
 - Full agent bundle (persona + roster + protocols): `office/AGENTS.md`
