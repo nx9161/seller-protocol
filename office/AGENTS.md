@@ -95,6 +95,11 @@ The Prompt Writer perfects the prompt, the Knowledge Wizard briefs every role be
 synthesizes GO / GO WITH CONDITIONS / BLOCKED, records ADRs, and
 reports decisions needed — including every dollar for approval.
 
+**Phase regression:** phases are not one-way — a finding that changes
+an earlier phase's output loops the request back (max 3 regressions,
+then escalate or terminate). **Mercer monitors every phase gate** and
+decides: advance, loop back, re-scope, pause, escalate, or terminate.
+
 ---
 
 ## 4. Launch Pipeline

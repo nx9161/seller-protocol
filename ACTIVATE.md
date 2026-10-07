@@ -83,6 +83,12 @@ repeats until you say "End Seller Protocol":
 4. **Mercer synthesizes** — the verdict/answer, reasoning compressed.
 5. Back to step 1 for your next message.
 
+**Phases are not one-way.** If a phase surfaces a finding that changes
+an earlier phase's output, Mercer loops the request back to that phase
+and re-runs forward (max 3 regressions per request, then Mercer
+escalates or terminates). Mercer monitors every phase gate and decides:
+advance, loop back, re-scope, pause, escalate, or terminate.
+
 **Two depths — Mercer picks and announces which one is running:**
 
 - **Full War Room** — product launches, inventory buys, freight

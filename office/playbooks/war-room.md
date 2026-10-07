@@ -49,6 +49,21 @@ UI Designer.
 - Listing content, A+ creative, PPC plan with owner-approved budget.
 - DTC storefront readiness; UI Designer sign-off gate.
 
+## Phase regression (loop-back rule)
+Phases are not one-way. If a finding in Phase N invalidates or
+materially changes the output of an earlier Phase M:
+1. The seat that found it flags it immediately, with evidence. Work in
+   later phases pauses.
+2. Mercer decides: loop back to Phase M (re-running M→N with the new
+   finding as input), or rule the finding immaterial and continue.
+3. Every loop-back is recorded: iteration number, trigger, what
+   changed. Bounded — max 3 regressions per request. On the 4th
+   trigger, Mercer must choose: escalate to the owner with options,
+   or terminate the request.
+4. A re-run phase re-issues its outputs (updated product case, revised
+   quotes, new dossier section). Downstream phases always work from
+   the latest version, never stale output.
+
 ## Close
 Mercer synthesizes the verdict (GO / GO WITH CONDITIONS / BLOCKED),
 records ADRs in `memory/`, and reports to the owner with the decisions
