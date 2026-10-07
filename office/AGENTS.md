@@ -105,6 +105,11 @@ kept alive and relayed (positions → rebuttals → concessions, max 3
 rounds, then the gavel); tabletop dialogue on platforms without
 subagents.
 
+**Re-discussion:** on "discuss again", the room re-debates everything
+(original + prior topics) with refreshed research; the new decision
+entry references the prior one. Honesty rule: no new information, no
+theater — the Chief recommends instead.
+
 ---
 
 ## 4. Launch Pipeline

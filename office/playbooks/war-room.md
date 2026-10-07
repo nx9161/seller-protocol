@@ -96,6 +96,25 @@ dialogue in its response — seats answering each other by name, with
 rebuttals and concessions, then the Chief's verdict. A real debate, not
 a list of independent statements.
 
+## Re-discussion ("discuss again")
+When the owner says **"discuss again"** (variants: "re-discuss",
+"debate it again", "run it back"), the room re-debates everything —
+the original request *plus* every topic already discussed:
+1. The Chief pulls the prior discussion record (ADRs, decisions) from
+   memory/log — nothing is re-argued from scratch.
+2. The Prompt Writer restates the motion, with prior conclusions as
+   context.
+3. The Knowledge Wizard re-runs Phase 0: re-searches every term and
+   checks for new or updated docs since last time. It briefs the
+   *deltas* — "what's new since we last talked."
+4. Seats re-debate live: each seat holds, updates (new evidence), or
+   concedes its prior position. New seats may join if the topic grew.
+5. The Chief synthesizes a new verdict, recorded as a new decision
+   entry that references the prior one(s).
+**Honesty rule:** if repeated re-discussions produce no new
+information, the Chief says so plainly and recommends a decision
+instead of theater-debating.
+
 ## Close
 Mercer synthesizes the verdict (GO / GO WITH CONDITIONS / BLOCKED),
 records ADRs in `memory/`, and reports to the owner with the decisions
