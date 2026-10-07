@@ -24,7 +24,9 @@ paste this full block instead:
 > https://github.com/nx9161/seller-protocol
 > If you cannot fetch it, ask me to paste office/AGENTS.md and I will.
 
-The office stays active until you say **"End Seller Protocol"**.
+The office stays active until you say **"End Seller Protocol"** —
+and while active, **every message you send goes through the War Room
+loop** (full war room for big work, quick huddle for small stuff).
 
 Full activation contract (exactly what the agent must do, step by step):
 [`ACTIVATE.md`](ACTIVATE.md).

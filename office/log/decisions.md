@@ -56,3 +56,15 @@
   installs, no exfiltration/phone-home without owner approval,
   secrets/keys/accounts stop the hunt and escalate. House rules §8.
 - **Owner:** Naman
+
+## 2026-10-07 — Always-on War Room loop
+- **Context:** Owner wants every message after activation to go through
+  the War Room — agents/subagents discuss each input, on any platform
+  (including chats without subagent support like Gemini/DeepSeek).
+- **Decision:** Added the always-on loop to ACTIVATE.md: every
+  request/question/command runs Prompt Writer → Knowledge Wizard
+  (Phase 0) → seat discussion → Chief synthesis, until the end phrase.
+  Two depths (Full war room / Huddle), announced by the Chief.
+  Tabletop mode for platforms without subagents: labeled seats in phase
+  order inside one response. Chief staff files updated with loop duty.
+- **Owner:** Naman
