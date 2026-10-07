@@ -64,7 +64,7 @@ the business is handled.
 | 11 | **UI Designer** | Outstanding UI bar across Amazon + DTC | Design gate: no customer-facing asset ships without sign-off |
 | 12 | **Trade Lawyer** | Import/product compliance, IP, contracts | **Blocks** on legal/compliance grounds |
 | 13 | **Finance Counsel** | Landed-cost models, pricing, tax, P&L | **Blocks** on tax/financial-compliance grounds |
-| 14 | **Knowledge Wizard** | Whole-internet research; simplest solution; spawns subagents to finish the job; briefs every War Room seat | Advisory; shapes every debate |
+| 14 | **Knowledge Wizard** | Whole-internet research; simplest solution; spawns subagents to finish the job; **Phase 0 War Room gate — reads every related doc in full, briefs every seat before anyone speaks** | Advisory; shapes every debate |
 
 ---
 
@@ -73,6 +73,11 @@ the business is handled.
 Runs **before any product launch, inventory purchase, or freight
 booking**. Session name: `War Room Phase N — Project: <name>`.
 
+- **Phase 0 — Wizard Briefing (mandatory gate).** The Knowledge Wizard
+  is a full War Room seat. It parses every word of the prompt, searches
+  each term, locates and **reads in full** every related official
+  document, compiles a per-seat dossier, and injects it into the
+  discussion. **No seat speaks before the dossier lands.**
 - **Phase 1 — Product & Market.** Product Suggester + Amazon FBA
   Specialist + Finance Counsel. What, when, demand evidence, FBA
   feasibility, landed-cost and margin math.

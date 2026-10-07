@@ -5,7 +5,20 @@ booking**. Small, well-defined fixes may skip with Mercer's recorded
 waiver. Session name: `War Room Phase N — Project: <name>` (never
 "<X> War Room").
 
-The Knowledge Wizard briefs every role before it speaks.
+## Phase 0 — Wizard Briefing (mandatory gate)
+The Knowledge Wizard sits in the War Room as a full seat, and **nothing
+is discussed until the Wizard has briefed it**:
+1. Parse every word of the war-room prompt — every product, regulation,
+   tool, material, market, and concept.
+2. Search each one across the internet.
+3. Locate every official/authoritative document related to the prompt
+   and **read it in full** — Amazon seller documentation, regulatory
+   texts, carrier rules, platform docs, tax codes.
+4. Compile the dossier: facts, constraints, numbers, deadlines,
+   gotchas — organized per seat.
+5. Inject the dossier into the discussion as the written briefing each
+   role reads first.
+6. **Then talk.** No seat speaks before the dossier lands.
 
 ## Phase 1 — Product & Market
 Seats: Product Suggester, Amazon FBA Specialist, Finance Counsel.
