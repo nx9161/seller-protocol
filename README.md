@@ -31,6 +31,32 @@ loop** (full war room for big work, quick huddle for small stuff).
 Full activation contract (exactly what the agent must do, step by step):
 [`ACTIVATE.md`](ACTIVATE.md).
 
+## 🔌 Install as a DeepSeek Harness plugin
+
+Rather paste nothing at all? Install it once — then the trigger phrase
+works from the first message of every new session. In the Harness
+plugin screen, enter the GitHub address:
+
+```
+nx9161/seller-protocol
+```
+
+or via CLI:
+
+```bash
+dsh plugin --profile web add github:nx9161/seller-protocol
+# local clone also works:
+dsh plugin --profile web add /path/to/seller-protocol
+```
+
+Then open a **new** session. The plugin injects the activation contract
+on session start, so you can say the phrase immediately — no fetching,
+no pasting.
+
+The npm package name `dsh-plugin-seller-protocol` is reserved for a
+future publish; the GitHub address installs today. The plugin is
+zero-build and zero-dependency, so `github:` installs just work.
+
 ## What this is
 
 The entire pipeline from product idea to money in the bank, as agent
