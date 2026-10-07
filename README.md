@@ -4,6 +4,15 @@ An autonomous virtual office for building and running an Amazon FBA +
 direct-to-consumer e-commerce business — from product idea to sourced,
 shipped, warehoused, listed, and selling.
 
+## ⚡ Activate this office
+
+Paste this to any AI agent:
+
+> I want to use Seller Protocol from nx9161's github public repo.
+
+Full activation contract (what the agent must do, step by step):
+[`ACTIVATE.md`](ACTIVATE.md).
+
 Led by **Mercer (Chief Operator)**, the office runs 13 specialists across
 7 divisions: Sourcing & Supply Chain, Logistics & Warehousing,
 Marketplaces, Digital Storefront, Legal & Finance, and Intelligence.

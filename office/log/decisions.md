@@ -33,3 +33,13 @@
   dossier lands. Intake playbook updated: Writer perfects before the
   Wizard briefs.
 - **Owner:** Naman
+
+## 2026-10-07 — Activation contract: trigger phrase boots the office
+- **Context:** Owner wants the phrase "I want to use Seller Protocol
+  from nx9161's github public repo" to activate the Mercer office in any
+  agent session.
+- **Decision:** Added `ACTIVATE.md` (agent-agnostic activation contract:
+  fetch repo → read office/AGENTS.md → adopt Mercer → load memory →
+  confirm with the exact activation line) and an "Activate this office"
+  section in the README with the copy-paste trigger phrase.
+- **Owner:** Naman
