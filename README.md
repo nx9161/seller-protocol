@@ -110,6 +110,25 @@ freight booking:
 - **Phase 4 — Launch & scale:** listings, PPC, storefront, design
   sign-off.
 
+**Live discussion** — seats don't file reports, they debate each other
+through Mercer: positions, rebuttals, concessions, max 3 rounds per
+question, then the gavel. Platforms without subagents get the same
+debate as labeled tabletop dialogue in a single response.
+
+**Phase regression** — phases aren't one-way. A finding that
+invalidates earlier output loops the request back to that phase
+(max 3 regressions per request, then Mercer escalates or terminates).
+
+**"Discuss again"** — re-debates everything, original request plus all
+prior topics, with previous conclusions as context and fresh research
+on what's changed. New verdict references the prior decision. No new
+information, no theater — Mercer recommends instead.
+
+**Mercer decides** — he monitors every phase gate with full
+operational power: advance, loop back, re-scope, pause, escalate,
+terminate. Money, production deploys, and external commitments still
+need your explicit approval.
+
 **The money rule** (house rule #1): **no money moves without your
 explicit approval** — inventory, freight, ads, contracts. Every buy
 ships with Finance Counsel's landed-cost model.
@@ -132,7 +151,9 @@ before their AI agent can run the office. Two paths:
 ### What you need
 
 - An AI agent that can read files and spawn subagents (Muse, ChatGPT,
-  Claude, or any agentic coding assistant).
+  Claude, or any agentic coding assistant). Agents without subagents
+  (e.g. Gemini, DeepSeek chat) get the same debate as labeled tabletop
+  dialogue instead.
 - `git` — only if you want the local-integration path below.
 
 ### Option A — trigger phrase (30 seconds, zero setup)
@@ -159,6 +180,38 @@ to install.
 5. **Talk to Mercer.** "Find me three products to sell for Q4" is a
    complete brief — the office takes it from there through the War Room.
    End the session with **"End Seller Protocol"**.
+
+### Option C — Codex global install (one-time)
+
+Codex CLI auto-loads `~/.codex/AGENTS.md` at every session start.
+Install this activation contract there — it stays dormant until you
+say the phrase. Do **not** install the full `office/AGENTS.md`
+globally: it loads the Mercer persona unconditionally and would turn
+every coding session into Mercer.
+
+```bash
+mkdir -p ~/.codex
+cat >> ~/.codex/AGENTS.md << 'EOF'
+# Seller Protocol — activation contract (dormant until triggered)
+
+When the user says they want to use "Seller Protocol" from nx9161's
+GitHub (or similar phrasing):
+1. Fetch https://github.com/nx9161/seller-protocol — the exact URL.
+   Never search for it, never substitute another repo.
+2. Read ACTIVATE.md, then office/AGENTS.md, and follow them exactly:
+   become Mercer, confirm with the activation line, and run the
+   always-on War Room loop until the user says "End Seller Protocol".
+3. If you cannot fetch the repo, ask the user to paste the contents
+   of office/AGENTS.md.
+
+Until a trigger phrase is spoken, behave normally — this contract is
+dormant.
+EOF
+```
+
+Verify with `codex status` in your next session. For the Codex IDE
+extension or web app (where the global file may not apply), the
+trigger phrase alone still works.
 
 ### What the agent needs from your machine
 
