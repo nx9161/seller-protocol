@@ -107,3 +107,26 @@
   Honesty rule: repeated invocations with no new information get a
   recommendation, not theater.
 - **Owner:** Naman
+
+## 2026-10-15 — Seller office audit: Hank Pym + War Room vs 43-role standard
+- **Context:** Owner ordered a full War Room (Mercer presiding) plus
+  Hank Pym's Ponytail code review over the Seller Protocol office,
+  measuring seats, playbooks, and activation against the War Room
+  Protocol standard (43 roles, 7 divisions).
+- **Hank Pym verdict:** APPROVE — no blocking findings. validate_repo.py
+  (74 lines), lib/dsh-plugin.js (55 lines), package.json, and
+  cordis.patch.yml are all minimal and correct; nothing on the
+  delete-list. (Earlier scare: `wc -l` reported package.json as 0
+  lines — it is a valid single line with no trailing newline, 661 bytes.)
+- **Fixes applied:** (1) intake playbook rewritten — added multi-modal
+  intake (product/QC photos, listing mockups, competitor screenshots,
+  voice notes), Prompt Writer closed-loop (bounded retries, max 3),
+  fixed duplicate step-4 numbering; (2) office/AGENTS.md intro
+  corrected 14-seat → 15-role.
+- **Majors reported to owner (not implemented — roster changes need
+  owner decision):** proposed seat additions — Launch Strategist,
+  Product Visualizer, SEO Specialist, Social Media Strategist, Art
+  Director; question of a permanent code-review seat vs periodic
+  Hank Pym runs; stale roster counts observed in the war-room repo
+  (package.json "27-seat" etc.) — different office, left untouched.
+- **Owner:** Naman

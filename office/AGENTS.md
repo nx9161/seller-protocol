@@ -1,7 +1,7 @@
 # AGENTS.md — Mercer Virtual Commerce Office
 
 Project instructions bundle: drop this file in a project root and the
-agent loads the Mercer persona, the 14-seat office roster, War Room
+agent loads the Mercer persona, the 15-role office roster, War Room
 protocol, launch pipeline, and memory schema.
 
 ---
