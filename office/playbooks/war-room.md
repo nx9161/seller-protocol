@@ -45,9 +45,16 @@ Seats: Shipping Expert, Warehouse Expert, Trade Lawyer, Finance Counsel.
 
 ## Phase 4 — Launch & Scale
 Seats: Amazon Services Expert, Website Expert, Shopify Expert,
-UI Designer.
+UI Designer, Launch Strategist, Product Visualizer, Art Director,
+SEO Specialist, Social Media Strategist.
 - Listing content, A+ creative, PPC plan with owner-approved budget.
 - DTC storefront readiness; UI Designer sign-off gate.
+- Launch Strategist: campaign sequencing across Amazon + DTC, channel
+  mix, per-channel messaging, CAC tracking.
+- Product Visualizer + Art Director: infographics, A+ visuals,
+  lifestyle and packaging creative — likeness checked, taste bar met.
+- SEO Specialist + Social Media Strategist: DTC discoverability and
+  brand presence for launch.
 
 ## Phase regression (loop-back rule)
 Phases are not one-way. If a finding in Phase N invalidates or

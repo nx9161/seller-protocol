@@ -29,3 +29,15 @@ Format: Keep a Changelog (https://keepachangelog.com/en/1.0.0/).
   Operator). Playbooks: intake, war-room, launch-product, fix-listing.
   House rules: money rule (no spend without owner approval), blocking
   seats (Trade Lawyer, Finance Counsel, Vendor Picker).
+
+## [2026-10-15] — 20 roles: Growth & Brand division + first skill
+- 5 new seats: Launch Strategist, SEO Specialist, Social Media
+  Strategist (new Growth & Brand division); Product Visualizer, Art
+  Director (Digital Storefront). Roster now 20 roles in 8 divisions.
+- War Room Phase 4 extended with all five new seats.
+- New skill `office/skills/fba-math/`: unit profit breakdown +
+  restock planner, clean-room built (a hunted repo failed the
+  popular/safe/licensed bar), with Finance Counsel ownership and a
+  fee-freshness guardrail.
+- Intake playbook: multi-modal intake + Prompt Writer closed-loop
+  (from 2026-10-15 audit).

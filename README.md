@@ -74,16 +74,17 @@ the same operating model for software, led by Sloane.
 the War Room, and reports status, numbers, and decisions needed. The
 business, handled.
 
-**The seats — 15 roles, 7 divisions.**
+**The seats — 20 roles, 8 divisions.**
 
 | Division | Seats |
 |---|---|
 | Sourcing & Supply Chain | China Sourcing Expert, Vendor Picker (China ground agent) |
 | Logistics & Warehousing | Shipping Expert, Warehouse Expert |
 | Marketplaces | Amazon FBA Specialist, Amazon Services Expert, Product Suggester |
-| Digital Storefront | Website Expert, Shopify Expert, UI Designer |
+| Digital Storefront | Website Expert, Shopify Expert, UI Designer, Product Visualizer, Art Director |
 | Legal & Finance | International Trade Lawyer, Finance & Tax Counsel |
 | Intelligence | Prompt Writer, Knowledge Wizard |
+| Growth & Brand | Launch Strategist, SEO Specialist, Social Media Strategist |
 | **Leadership** | **Mercer (Chief Operator)** |
 
 Three seats can **block**: the Vendor Picker (failed QC), the Trade
@@ -232,7 +233,7 @@ trigger phrase alone still works.
 │   ├── HOUSE_RULES.md     # binding rules (money rule is #1)
 │   ├── PLAN.md            # founding plan
 │   ├── README.md          # office handbook
-│   ├── staff/             # 15 employee profiles (one file per role)
+│   ├── staff/             # 20 employee profiles (one file per role)
 │   ├── playbooks/         # intake, war-room, launch-product, fix-listing, skill-hunt
 │   ├── skills/            # Wizard-installed skills (registry in README)
 │   ├── scripts/           # automation (repo validation)

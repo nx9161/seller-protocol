@@ -130,3 +130,29 @@
   Hank Pym runs; stale roster counts observed in the war-room repo
   (package.json "27-seat" etc.) — different office, left untouched.
 - **Owner:** Naman
+
+## 2026-10-15 — COMPLETE mission: 5 new seats + first skill (20 roles, 8 divisions)
+- **Context:** Owner ordered the Seller Protocol office completed —
+  full War Room vs the 43-role standard, presentable, missing
+  capabilities added, free GitHub repos integrated where they pass
+  popular/safe/licensed.
+- **Decision:** Hired 5 commerce-adapted seats (new Growth & Brand
+  division: Launch Strategist, SEO Specialist, Social Media
+  Strategist; Digital Storefront += Product Visualizer, Art
+  Director). Roster now 20 roles in 8 divisions. War Room Phase 4
+  extended with all five. All roster surfaces synced in one commit
+  (staff, bundle chart/table/phases, handbook, READMEs, ACTIVATE,
+  dsh plugin, package.json).
+- **Skill hunt:** shen169/amazon-fba-skills failed popular/safe/
+  licensed (1 commit, MIT claimed in frontmatter only, no LICENSE
+  file, stale 2026 fee tables) — NOT vendored. Built the office's
+  own `office/skills/fba-math/` clean-room from generic industry
+  concepts (unit profit breakdown + restock planner), with
+  house-rule integration (Finance Counsel owns the model) and a
+  binding freshness guardrail (Wizard verifies Amazon's current
+  fee schedule in Phase 0; no hardcoded tables).
+- **Not added (judgment):** Financial/Tax Analyst seats (Finance
+  Counsel covers), Excel Specialist (FC does models), Memory Keeper
+  (schema exists), permanent code-review seat (periodic Hank Pym
+  runs suffice for the tiny code footprint).
+- **Owner:** Naman

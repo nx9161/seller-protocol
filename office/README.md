@@ -5,15 +5,18 @@ Welcome to the office. This folder is the office's memory and rulebook.
 - **HOUSE_RULES.md** — binding rules for every employee.
 - **PLAN.md** — the founding plan.
 - **staff/** — employee profiles. Hiring someone new = adding a file here.
-  15 roles in 7 divisions:
+  20 roles in 8 divisions:
   - *Leadership:* mercer (Chief Operator)
   - *Sourcing & Supply Chain:* china-sourcing-expert, vendor-picker
   - *Logistics & Warehousing:* shipping-expert, warehouse-expert
   - *Marketplaces:* amazon-fba-specialist, amazon-services-expert,
     product-suggester
-  - *Digital Storefront:* website-expert, shopify-expert, ui-designer
+  - *Digital Storefront:* website-expert, shopify-expert, ui-designer,
+    product-visualizer, art-director
   - *Legal & Finance:* trade-lawyer, finance-counsel
   - *Intelligence:* prompt-writer, knowledge-wizard
+  - *Growth & Brand:* launch-strategist, seo-specialist,
+    social-media-strategist
 - **playbooks/** — repeatable procedures, run by spawning one subagent
   per step: `intake`, `war-room`, `launch-product`, `fix-listing`,
   `skill-hunt`.
