@@ -156,3 +156,18 @@
   (schema exists), permanent code-review seat (periodic Hank Pym
   runs suffice for the tiny code footprint).
 - **Owner:** Naman
+
+## 2026-10-15 — Design review: Scarlet Witch + Psylocke (full creative discretion)
+- **Context:** Owner licensed the office's latest UI/UX standards for
+  the Seller Protocol docs and operator surfaces.
+- **Scarlet Witch (IA) findings:** stale tagline (14 specialists, 7
+  divisions), "Two paths:" label with three options — both fixed.
+- **Psylocke (art direction) findings:** pipeline and War Room phases
+  were text-only — added mermaid flowcharts (launch pipeline with
+  money-gate legend; phase flow with regression loop) to README and
+  the war-room playbook. Direction: GitHub-native diagrams, no
+  decoration, accuracy first.
+- **Also fixed:** stale counts in office/PLAN.md (org section) and
+  repo-root AGENTS.md; added dated 2026-10-15 milestone to
+  memory/INDEX.md (historical entries untouched).
+- **Owner:** Naman

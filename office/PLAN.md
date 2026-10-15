@@ -7,7 +7,7 @@ what to sell, source it from China, ship it, warehouse it, list it on
 Amazon, sell it on Shopify, and keep it all legal and profitable.
 
 ## Organization
-14 seats in 7 divisions, led by Mercer (Chief Operator) — the one person
+19 seats in 8 divisions, led by Mercer (Chief Operator) — the one person
 who handles everything and reports to Naman.
 
 - **Leadership:** Mercer — intake, dispatch, War Room facilitation,

@@ -6,7 +6,7 @@
 
 > An autonomous virtual office for Amazon FBA + direct-to-consumer
 > e-commerce. Say the phrase, and **Mercer** — Chief Operator — runs
-> 14 specialists across 7 divisions: what to sell, sourcing it from
+> 19 specialists across 8 divisions: what to sell, sourcing it from
 > China, shipping, warehousing, listing, and selling — legally and
 > profitably.
 
@@ -74,6 +74,23 @@ the same operating model for software, led by Sloane.
 the War Room, and reports status, numbers, and decisions needed. The
 business, handled.
 
+**The pipeline** — idea to money in the bank:
+
+```mermaid
+flowchart LR
+    A[Idea] --> B[War Room<br/>Phases 0–4]
+    B --> C[Sample 💰]
+    C --> D[Contract<br/>lawyer review 💰]
+    D --> E[Bulk + QC 💰]
+    E --> F[Freight 💰]
+    F --> G[Warehouse / Prep]
+    G --> H[List]
+    H --> I[Launch]
+    I --> J[30-day P&L review]
+```
+
+💰 = owner approval required (money rule — every dollar, in writing).
+
 **The seats — 20 roles, 8 divisions.**
 
 | Division | Seats |
@@ -111,6 +128,16 @@ freight booking:
 - **Phase 4 — Launch & scale:** listings, PPC, storefront, design
   sign-off.
 
+```mermaid
+flowchart TD
+    P0["Phase 0 — Prompt perfection + Wizard briefing<br/>(no seat speaks before the dossier lands)"] --> P1["Phase 1 — Product & Market"]
+    P1 --> P2["Phase 2 — Sourcing"]
+    P2 --> P3["Phase 3 — Logistics & Legal Challenge"]
+    P3 --> P4["Phase 4 — Launch & Scale"]
+    P4 --> V["Mercer synthesizes:<br/>GO / GO WITH CONDITIONS / BLOCKED"]
+    P4 -.->|"phase regression<br/>(max 3, then escalate)"| P0
+```
+
 **Live discussion** — seats don't file reports, they debate each other
 through Mercer: positions, rebuttals, concessions, max 3 rounds per
 question, then the gavel. Platforms without subagents get the same
@@ -147,7 +174,7 @@ wires up every tool they need. See `office/playbooks/skill-hunt.md`.
 ## Getting started — connect it to your system
 
 Since this is open source, a new user needs a few minutes of setup
-before their AI agent can run the office. Two paths:
+before their AI agent can run the office. Three paths:
 
 ### What you need
 

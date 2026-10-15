@@ -12,3 +12,4 @@
 - 2026-10-07: Office founded — 14 seats, 7 divisions, Mercer (Chief
   Operator). Playbooks: intake, war-room, launch-product, fix-listing.
 - 2026-10-07: Prompt Writer added as 15th seat (Intelligence); War Room Phase 0 is now two-step — Writer perfects the prompt, Wizard briefs every seat from fully-read docs.
+- 2026-10-15: Office completed — 20 roles, 8 divisions. Hired Launch Strategist, SEO Specialist, Social Media Strategist (new Growth & Brand division), Product Visualizer, Art Director (Digital Storefront). Installed office-built `office/skills/fba-math/` skill. Design review (Scarlet Witch + Psylocke): fixed stale counts, added pipeline + phase-flow diagrams.

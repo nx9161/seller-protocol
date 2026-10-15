@@ -5,6 +5,16 @@ booking**. Small, well-defined fixes may skip with Mercer's recorded
 waiver. Session name: `War Room Phase N — Project: <name>` (never
 "<X> War Room").
 
+```mermaid
+flowchart TD
+    P0["Phase 0 — Prompt perfection + Wizard briefing<br/>(no seat speaks before the dossier lands)"] --> P1["Phase 1 — Product & Market"]
+    P1 --> P2["Phase 2 — Sourcing"]
+    P2 --> P3["Phase 3 — Logistics & Legal Challenge"]
+    P3 --> P4["Phase 4 — Launch & Scale"]
+    P4 --> V["Mercer synthesizes:<br/>GO / GO WITH CONDITIONS / BLOCKED"]
+    P4 -.->|"phase regression<br/>(max 3, then escalate)"| P0
+```
+
 ## Phase 0 — Prompt Perfection & Wizard Briefing (mandatory gate)
 The Prompt Writer and Knowledge Wizard sit in the War Room as full
 seats, and **nothing is discussed until both have done their work**:
