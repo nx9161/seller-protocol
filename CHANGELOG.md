@@ -4,6 +4,17 @@ All notable changes to this repository are documented here.
 Format: Keep a Changelog (https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+### Added
+- House Rules §9 (anti-bloat): roster frozen by default, one source
+  of truth per fact, link-don't-copy, lean logs/memory, use-it-or-
+  lose-it skills, bundle budget, process caps, no-repo-left-stale.
+- `validate_repo.py` check 5: roster counts in current-state surfaces
+  must match `office/staff/` and the bundle heading — stale counts
+  now fail CI. Historical records are excluded on purpose.
+
+### Fixed
+- `office/PLAN.md`: "19 seats" -> "19 specialists" (19 + Mercer =
+  20 roles), caught by the new count check's terminology pass.
 
 ## [2026-10-07] — Company-grade open source
 ### Added

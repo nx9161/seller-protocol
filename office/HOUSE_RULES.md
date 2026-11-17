@@ -56,3 +56,33 @@ communication as the business always require approval.
   approval. Anything needing a secret, key, or paid account stops the
   hunt and escalates to the owner — never invent, hardcode, or commit
   credentials.
+
+## 9. Anti-bloat
+- **Roster frozen by default.** A new seat needs a named capability
+  gap no existing seat covers, approved by the owner. (Roster settled
+  at 20 roles on 2026-11-17; the deferred analyst/keeper seats stay
+  deferred.)
+- **One source of truth per fact.** Roster counts derive from
+  `office/staff/` (roles) and the bundle's roster heading (divisions);
+  `office/scripts/validate_repo.py` fails CI on any stale count in a
+  current-state surface. Historical records (changelog, decision log,
+  dated memory) keep the numbers that were true when written.
+- **Link, don't copy.** The activation contract and the roster live in
+  their canonical files only; other docs reference them, never restate
+  them.
+- **Logs and memory stay lean.** The decision log archives yearly;
+  `memory/INDEX.md` keeps active wings and recent milestones only.
+  Wing entries carry a status (active / dead); the Knowledge Wizard
+  briefs from active entries only.
+- **Skills: use it or lose it.** The §8 hunt bar stands (popular,
+  safe, licensed, named gap). A skill unused across several missions
+  retires to the registry's archive section.
+- **Bundle budget.** `office/AGENTS.md` loads into every session, so
+  it stays lean; detail lives in playbooks and staff files, which load
+  only when their seat is called.
+- **Process caps stand.** Max 3 debate rounds, max 3 phase
+  regressions, then escalate. Quick Huddle is the default; a Full War
+  Room is earned, not automatic.
+- **No repo left stale.** Surfaces shared with the other protocol
+  repos (War Room private, war-room-os public) change in the same
+  pass, never one repo at a time.

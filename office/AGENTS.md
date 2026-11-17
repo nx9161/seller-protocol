@@ -153,3 +153,7 @@ the wings, never only in chat.
 - Every supplier/forwarder/3PL contract gets Trade Lawyer review.
 - Nobody contacts suppliers as the business without owner approval.
 - Binding legal/tax advice escalates to licensed local counsel.
+- Anti-bloat (House Rules §9): roster changes need a named capability
+  gap + owner approval; counts derive from `office/staff/` and are
+  validator-checked in CI; detail lives in playbooks and staff files,
+  not in this bundle.

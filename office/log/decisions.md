@@ -181,3 +181,18 @@
   ground; periodic Hank Pym reviews cover the tiny code footprint.
   Revisit only on the owner's word.
 - **Owner:** Naman
+
+## 2026-11-17 — Anti-bloat house rule + validator count check (owner order)
+- **Context:** Owner asked for every bloat vector in the protocol and
+  its prevention, then ordered the mechanical guards built.
+- **Decision:** House Rules §9 added (roster frozen by default, one
+  source of truth per fact, link-don't-copy, lean logs/memory,
+  use-it-or-lose-it skills, bundle budget, process caps,
+  no-repo-left-stale); bundle §6 carries the summary bullet.
+  `validate_repo.py` gained check 5: counts in current-state surfaces
+  must match `office/staff/` (roles; specialists = roles - 1) and the
+  bundle heading (divisions); historical records excluded on purpose.
+  Negative-tested: the old "15 specialists, 7 divisions" text fails
+  with both mismatches named. PLAN.md "19 seats" corrected to
+  "19 specialists" in the same pass.
+- **Owner:** Naman

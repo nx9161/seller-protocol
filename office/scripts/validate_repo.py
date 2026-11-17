@@ -7,7 +7,13 @@ Checks:
      the canonical docs (office/README.md, office/AGENTS.md, AGENTS.md).
   3. ACTIVATE.md carries the trigger phrase.
   4. No trailing whitespace in tracked markdown files.
+  5. Roster counts in current-state surfaces match the source of truth:
+     office/staff/*.md (roles; specialists = roles - 1) and the bundle
+     roster heading (divisions). Historical records (CHANGELOG, the
+     decision log, dated memory entries) are excluded on purpose —
+     their numbers were true when written. (House Rules §9.)
 """
+import re
 import sys
 from pathlib import Path
 
@@ -65,6 +71,57 @@ for md in sorted(ROOT.rglob("*.md")):
                 f"trailing whitespace: {md.relative_to(ROOT)}:{i}"
             )
             break
+
+roles = len(list((ROOT / "office/staff").glob("*.md")))
+bundle = (ROOT / "office/AGENTS.md").read_text(encoding="utf-8")
+heading = re.search(r"(\d+) Roles, (\d+) Divisions", bundle)
+divisions = None
+if not heading:
+    errors.append(
+        "office/AGENTS.md roster heading missing 'N Roles, N Divisions'"
+    )
+else:
+    if int(heading.group(1)) != roles:
+        errors.append(
+            f"office/AGENTS.md heading says {heading.group(1)} roles, "
+            f"office/staff/ has {roles}"
+        )
+    divisions = int(heading.group(2))
+
+expected = {
+    "role": roles,
+    "roles": roles,
+    "seat": roles,
+    "seats": roles,
+    "specialist": roles - 1,
+    "specialists": roles - 1,
+}
+if divisions is not None:
+    expected["division"] = divisions
+    expected["divisions"] = divisions
+
+SURFACES = [
+    "README.md",
+    "ACTIVATE.md",
+    "office/AGENTS.md",
+    "office/README.md",
+    "AGENTS.md",
+    "office/PLAN.md",
+    "lib/dsh-plugin.js",
+    "package.json",
+]
+claim = re.compile(r"(\d+)[\s-]+(roles?|seats?|specialists|divisions)\b", re.I)
+for f in SURFACES:
+    p = ROOT / f
+    if not p.exists():
+        continue
+    for i, line in enumerate(p.read_text(encoding="utf-8").splitlines(), 1):
+        for num, unit in claim.findall(line):
+            want = expected[unit.lower()]
+            if int(num) != want:
+                errors.append(
+                    f"stale count: {f}:{i} says {num} {unit}, expected {want}"
+                )
 
 if errors:
     print("validate_repo.py FAILED:")
