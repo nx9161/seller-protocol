@@ -171,3 +171,13 @@
   repo-root AGENTS.md; added dated 2026-10-15 milestone to
   memory/INDEX.md (historical entries untouched).
 - **Owner:** Naman
+
+## 2026-11-17 — Roster stays at 20 seats (owner decision)
+- **Context:** The Oct 15 completion left four judgment calls open:
+  Financial Analyst, Tax Strategist, Excel Specialist, Memory Keeper,
+  plus a permanent code-review seat — all deliberately not added.
+- **Decision:** Owner confirmed "Keep the 20-seat roster as is."
+  Finance & Tax Counsel + the fba-math skill cover the finance
+  ground; periodic Hank Pym reviews cover the tiny code footprint.
+  Revisit only on the owner's word.
+- **Owner:** Naman
